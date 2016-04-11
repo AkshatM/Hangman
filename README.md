@@ -2,6 +2,10 @@
 
 This README describes my design choices for solving Coursera's Hangman UI interface challenge, as well as any major issues I encountered (and a solution, if found).
 
+_Note: I am reproducing my solution here on GitHub to demonstrate my abilities and the way I approach design problems. If you like what you see/are reading and think I'd be a really good next hire, get in touch with me. Contact information is on [my website](http://www.akshatm.com)._
+
+![A demo](https://github.com/AkshatM/Hangman/raw/master/demo.gif)
+
 # Table of Contents
 
     Design Constraints
@@ -116,6 +120,8 @@ Network connectivity tolerance and behaviour was tested by turning off all inter
 Thanks again to Coursera for giving me the chance to do this. It was truly fun!
 
 ## File Structure
+
+_Note: For reasons of confidentiality, I have chosen to omit providing any Coursera Hangman APIs and have not included the bundled production version, nor have I provided the `build/` folder. The contents you see now come solely from `dev/` _
 
 The `dev` folder contains code used in development; `production` is the production-ready version of the same code (i.e. minified, extraneous items removed etc.).
 
