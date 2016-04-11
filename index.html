@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Hangman with Coursera</title>
+    <meta name="description" content="Hangman with Coursera">
+    <meta name="author" content="Akshat Mahajan">
+
+    <!-- Mobile Specific Metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Framework: Skeleton CSS (minimal page styling with no JS; ~400 lines of css unminified + responsive)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="css/page.css">
+
+    <!-- Favicon (unnecessary)-->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id = "content" class="main row">
+            <div class="six columns">
+                <div class="svg-container" title="Save the hangman! Prevent the body from being completely drawn. Every wrong letter draws on another limb...">
+                <svg version="1.1" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet" class="svg-content">
+                <rect fill="#053544" width="10" height="400" x="20" y="0" />
+                <rect fill="#053544" width="300" height="10" x="20" y="0" />
+                <rect fill="#053544" width="300" height="10" x="0" y="400" />
+                <line x1="290" y1 = "0" x2="290" y2 = "120" stroke = "rgb(0,0,0)" />
+                <circle cx="290" cy="150" r="30" />
+                <rect width="10" height="100" x="285" y="150" />
+                <line x1="290" y1="200" x2="260" y2="230" stroke="black" stroke-linecap="round" stroke-width="10"/>
+                <line x1="290" y1="200" x2="320" y2="230" stroke="black" stroke-linecap="round" stroke-width="10"/>
+                <line x1="290" y1="250" x2="270" y2="300" stroke="black" stroke-linecap="round" stroke-width="10"/>
+                <line x1="290" y1="250" x2="310" y2="300" stroke="black" stroke-linecap="round" stroke-width="10"/>
+                </svg>
+                </div>
+            </div>
+            <div class="six columns">
+                    <h4>Welcome to Coursera's Hangman Game!</h4>
+                    <p><b>Instructions:</b> Guess the word one letter at a time. Make too many incorrect guesses and the hangman dies!</p>
+                    <div id="login_form">
+                        <p>Hold on, important components are loading. This shouldn't take more than a couple of seconds...</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-dom.min.js"></script>
+    <script defer src="build/hangman.js"></script>
+</body>
+
+</html>

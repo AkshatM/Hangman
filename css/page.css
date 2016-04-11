@@ -1,0 +1,29 @@
+/* All content is in main */
+
+.main {
+    margin-top: 15%;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Styling for the phrase to guess when displayed. */
+.wrap {
+    letter-spacing: 0.5ch;
+}
+
+/* Media queries are handled by Skeleton's defaults */
