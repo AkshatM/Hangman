@@ -124,7 +124,7 @@ Thanks again to Coursera for giving me the chance to do this. It was truly fun!
 
 ## File Structure
 
-_Note: For reasons of confidentiality, I have chosen to omit providing any Coursera Hangman APIs and have not included the bundled production version, nor have I provided the `build/` folder. The contents you see now come solely from `dev/` _
+_Note: For reasons of confidentiality, I have chosen to omit providing any Coursera Hangman APIs and have not included the bundled production version, nor have I provided the `build/` folder. The contents you see now come solely from `dev/`_
 
 The `dev` folder contains code used in development; `production` is the production-ready version of the same code (i.e. minified, extraneous items removed etc.).
 
